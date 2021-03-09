@@ -1,0 +1,19 @@
+//Sayfa 13(7.baskı) taban ve yükseklik değerleri verilen üçgenin alanını hesaplama örneği kodları.//
+
+#include<stdio.h>
+int main()
+{
+int taban,yukseklik;
+float alan;
+
+printf("Lutfen taban degerini giriniz.",taban);
+scanf("%d",&taban);
+
+printf("Lutfen yukseklik degerini giriniz.",yukseklik);
+scanf("%d",&yukseklik);
+
+alan=(taban*yukseklik)/2;
+printf("Hesaplanan alan degeri:%.2f",alan);
+
+return 0;
+}
